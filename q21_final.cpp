@@ -10,11 +10,6 @@ private:
     int transposeArr[100][100];
 
 public:
-    friend Matrix operator+(Matrix m1, Matrix m2);
-    friend Matrix operator-(Matrix m1, Matrix m2);
-    friend Matrix operator*(Matrix m1, Matrix m2);
-    friend ostream &operator<<(ostream &output, Matrix &mat);
-    friend istream &operator>>(istream &input, Matrix &mat);
 
     Matrix() {}
     Matrix(int a, int b)
